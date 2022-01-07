@@ -4,7 +4,7 @@
 #
 Name     : pypi-pluggy
 Version  : 1.0.0
-Release  : 79
+Release  : 80
 URL      : https://files.pythonhosted.org/packages/a1/16/db2d7de3474b6e37cbb9c008965ee63835bba517e22cdb8c35b5116b5ce1/pluggy-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a1/16/db2d7de3474b6e37cbb9c008965ee63835bba517e22cdb8c35b5116b5ce1/pluggy-1.0.0.tar.gz
 Summary  : plugin and hook calling mechanisms for python
@@ -19,9 +19,6 @@ BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
-Provides: pluggy
-Provides: pluggy-python
-Provides: pluggy-python3
 
 %description
 ====================================================
@@ -65,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641522497
+export SOURCE_DATE_EPOCH=1641523908
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
