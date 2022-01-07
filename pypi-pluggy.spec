@@ -19,6 +19,9 @@ BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
+Provides: pluggy
+Provides: pluggy-python
+Provides: pluggy-python3
 
 %description
 ====================================================
