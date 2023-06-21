@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pluggy
-URL = https://files.pythonhosted.org/packages/02/aa/218b70027ff08035df09ac7ea7f230437a5bde09a4b76a1d72a60bf353ff/pluggy-1.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/8a/42/8f2833655a29c4e9cb52ee8a2be04ceac61bcff4a680fb338cbd3d1e322d/pluggy-1.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

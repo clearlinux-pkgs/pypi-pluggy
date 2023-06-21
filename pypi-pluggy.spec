@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-pluggy
-Version  : 1.1.0
-Release  : 95
-URL      : https://files.pythonhosted.org/packages/02/aa/218b70027ff08035df09ac7ea7f230437a5bde09a4b76a1d72a60bf353ff/pluggy-1.1.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/02/aa/218b70027ff08035df09ac7ea7f230437a5bde09a4b76a1d72a60bf353ff/pluggy-1.1.0.tar.gz
+Version  : 1.2.0
+Release  : 96
+URL      : https://files.pythonhosted.org/packages/8a/42/8f2833655a29c4e9cb52ee8a2be04ceac61bcff4a680fb338cbd3d1e322d/pluggy-1.2.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/8a/42/8f2833655a29c4e9cb52ee8a2be04ceac61bcff4a680fb338cbd3d1e322d/pluggy-1.2.0.tar.gz
 Summary  : plugin and hook calling mechanisms for python
 Group    : Development/Tools
 License  : MIT
@@ -55,10 +55,10 @@ python3 components for the pypi-pluggy package.
 
 
 %prep
-%setup -q -n pluggy-1.1.0
-cd %{_builddir}/pluggy-1.1.0
+%setup -q -n pluggy-1.2.0
+cd %{_builddir}/pluggy-1.2.0
 pushd ..
-cp -a pluggy-1.1.0 buildavx2
+cp -a pluggy-1.2.0 buildavx2
 popd
 
 %build
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687187263
+export SOURCE_DATE_EPOCH=1687359882
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
