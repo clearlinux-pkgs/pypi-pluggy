@@ -238,13 +238,14 @@ pypi-uharfbuzz
 pypi-unidecode
 pypi-uritools
 pypi-urlobject
+pypi-urwid
 pypi-userpath
 pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
 pypi-wcmatch
-pypi-webcolors
+pypi-wcwidth
 pypi-webob
 pypi-werkzeug
 pypi-wsgiproxy2
