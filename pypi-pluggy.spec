@@ -5,7 +5,7 @@
 #
 Name     : pypi-pluggy
 Version  : 1.3.0
-Release  : 99
+Release  : 100
 URL      : https://files.pythonhosted.org/packages/36/51/04defc761583568cae5fd533abda3d40164cbdcf22dee5b7126ffef68a40/pluggy-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/36/51/04defc761583568cae5fd533abda3d40164cbdcf22dee5b7126ffef68a40/pluggy-1.3.0.tar.gz
 Summary  : plugin and hook calling mechanisms for python
