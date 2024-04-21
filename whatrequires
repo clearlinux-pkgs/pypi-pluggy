@@ -32,11 +32,12 @@ pypi-appdirs
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-arrow
+pypi-asgiref
 pypi-asttokens
-pypi-atpublic
 pypi-attr
 pypi-attrs
 pypi-automat
+pypi-awxkit
 pypi-bcrypt
 pypi-beartype
 pypi-black
@@ -173,6 +174,7 @@ pypi-prettytable
 pypi-pure_eval
 pypi-pybtex
 pypi-pydot_ng
+pypi-pyfakefs
 pypi-pygithub
 pypi-pygments
 pypi-pyjwt
@@ -224,7 +226,6 @@ pypi-sphinxcontrib_redoc
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
-pypi-sqlparse
 pypi-stack_data
 pypi-subprocess_tee
 pypi-sure
@@ -252,7 +253,6 @@ pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
-pypi-wcmatch
 pypi-wcwidth
 pypi-webob
 pypi-werkzeug
